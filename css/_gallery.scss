@@ -1,0 +1,47 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 86px;
+    padding-top: 86px;
+    border-top: 2px solid #eeeeef;
+
+    h2 {
+        margin: 9px 0 0 0;
+        font-size: 32px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 0 40px -54px;
+        
+    }
+    
+    .gallery-item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 54px;
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin: 42px 0 34px 0;
+        }
+
+        h3 {
+            font-size: 21px;
+            margin: 0;
+            padding: 0;
+            margin: 0 0 10px 0;
+        }
+
+        p {
+            font-size: 17px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}

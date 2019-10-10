@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.social {
+    .link {
+        border: none;
+    }
+
+    i {
+        font-size: 32px;
+        padding: 0 0 28px 22px;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 17px;
+    margin-bottom: 6px;
+
+    nav {
+        margin: 0 0 0 12px;
+
+        &:nth-child(2) {
+            border-right: 1px solid;
+            border-left: 1px solid;
+            padding: 0 13px;
+        }
+    }
+}
