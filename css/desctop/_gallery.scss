@@ -1,0 +1,42 @@
+@media screen and (max-width: $xl-width) {
+
+    .gallery {
+        margin-top: 64px;
+        padding-top: 64px;
+
+        .inner {
+            margin: 0 0 27px -40px;
+            
+        }
+        
+        .gallery-item {
+            padding-left: 40px;
+
+            .images {
+                margin: 27px 0 22px 0;
+    
+                &:after {
+                    top: 42%;
+                    left: 39%;
+                    font-size: 13px;
+                    padding: 0;
+                    width: 70px;
+                }
+            }
+
+            h3 {
+                font-size: 16px;
+                margin-bottom: 2px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+
+        h2 {
+            margin: 4px 0 1px 0;
+            font-size: 24px;
+        }
+    }
+}

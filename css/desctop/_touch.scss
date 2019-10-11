@@ -1,0 +1,63 @@
+@media screen and (max-width: $xl-width) {
+
+    .contacts {
+        margin-bottom: 12px;
+    }
+
+    .touch {
+        margin-top: 64px;
+        padding-top: 64px;
+
+        h2 {
+            margin: 4px 0 1px 0;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 28px;
+            margin: 27px 0 32px 0;
+        }
+
+        .form {
+            padding-right: 18px;
+
+            .form-colum {
+                padding-right: 20px;
+            }
+        }
+
+        .aside-input {
+            height: 44px;
+            padding: 5px 14px;
+        }
+        
+        .message-text {
+            height: 140px;
+            padding: 18px 14px;
+        }
+
+        .aside-input,
+        .message-text {
+            margin: 0 0 20px 0;
+            font-size: 16px;
+        }
+
+        .addres {
+        
+            span {
+                padding-left: 38px;
+                margin-bottom: 24px;
+                font-size: 16px;
+                line-height: 28px;
+        
+                i {
+                    font-size: 20px;
+                    width: 30px;
+                    top: 5px;
+                    left: -3px;
+                }
+            }
+        }
+    }
+}

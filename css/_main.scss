@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 .sidebar {
-    width: 666px;
+    width: 35%;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -46,12 +46,17 @@ h1, h2, h3 {
     height: 100%;
     padding: 170px 85px;
     justify-content: space-between;
-    background-attachment: scroll, scroll;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, top left;
+    top: 0;
+    left: 0;
+    background-color: #1f1815;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    margin-left: 666px;
-    padding: 171px 170px 129px 85px;
+    margin-left: 35%;
+    padding: 171px 75px 129px 85px;
+    max-width: 60%;
 }

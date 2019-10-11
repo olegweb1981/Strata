@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 .sidebar {
-  width: 666px;
+  width: 35%;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -46,14 +46,19 @@ h1, h2, h3 {
   height: 100%;
   padding: 170px 85px;
   justify-content: space-between;
-  background-attachment: scroll, scroll;
+  background-repeat: repeat, no-repeat;
+  background-position: top left, top left;
+  top: 0;
+  left: 0;
+  background-color: #1f1815;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  margin-left: 666px;
-  padding: 171px 170px 129px 85px;
+  margin-left: 35%;
+  padding: 171px 75px 129px 85px;
+  max-width: 60%;
 }
 
 .header {
@@ -94,7 +99,7 @@ h1, h2, h3 {
 
 .social i {
   font-size: 32px;
-  padding: 0 0 28px 22px;
+  padding: 0 0 28px 21px;
 }
 
 .nav {
@@ -102,11 +107,10 @@ h1, h2, h3 {
   flex-direction: row;
   justify-content: flex-end;
   font-size: 17px;
-  margin-bottom: 6px;
 }
 
 .nav nav {
-  margin: 0 0 0 12px;
+  margin: 0 0 6px 12px;
 }
 
 .nav nav:nth-child(2) {
@@ -204,18 +208,19 @@ h1, h2, h3 {
 .gallery .gallery-item .images:after {
   content: 'View';
   position: absolute;
-  top: 45%;
-  left: 40%;
-  padding: 5px 30px;
+  top: 42%;
+  left: 39%;
+  padding: 5px 0;
   border: 3px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
+  border-radius: 5px;
   display: inline-block;
   opacity: 0;
   text-align: center;
-  text-decoration: none;
   white-space: nowrap;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
+  width: 90px;
+  font-weight: 400;
 }
 
 .gallery .gallery-item .images:after img {
@@ -345,14 +350,145 @@ h1, h2, h3 {
   padding-left: 50px;
   line-height: 37px;
   margin-bottom: 32px;
+  font-size: 21px;
 }
 
 .addres span i {
   position: absolute;
   top: 7px;
   left: 0;
-  vertical-align: middle;
   font-size: 27px;
   text-align: center;
   width: 30px;
+}
+
+@media screen and (max-width: 1680px) {
+  .sidebar {
+    padding: 128px 64px 121px 64px;
+    background-position: left 0px;
+  }
+  .sidebar img {
+    width: 100px;
+  }
+  .sidebar h1 {
+    font-size: 22px;
+    margin: 18px 0;
+    line-height: 37px;
+  }
+  .sidebar nav {
+    margin: 0 0 6px 10px;
+    font-size: 13px;
+  }
+  .sidebar nav:nth-child(2) {
+    padding: 0 9px;
+  }
+  .sidebar .social i {
+    font-size: 24px;
+    padding: 0 0 19px 15px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .main {
+    padding: 128px 64px 96px 64px;
+    margin-right: 13%;
+  }
+  .info h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .info p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 32px 0;
+  }
+  .btn {
+    padding: 12px 0;
+    font-size: 16px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .gallery {
+    margin-top: 64px;
+    padding-top: 64px;
+  }
+  .gallery .inner {
+    margin: 0 0 27px -40px;
+  }
+  .gallery .gallery-item {
+    padding-left: 40px;
+  }
+  .gallery .gallery-item .images {
+    margin: 27px 0 22px 0;
+  }
+  .gallery .gallery-item .images:after {
+    top: 42%;
+    left: 39%;
+    font-size: 13px;
+    padding: 0;
+    width: 70px;
+  }
+  .gallery .gallery-item h3 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .gallery .gallery-item p {
+    font-size: 13px;
+  }
+  .gallery h2 {
+    margin: 4px 0 1px 0;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .contacts {
+    margin-bottom: 12px;
+  }
+  .touch {
+    margin-top: 64px;
+    padding-top: 64px;
+  }
+  .touch h2 {
+    margin: 4px 0 1px 0;
+    font-size: 24px;
+  }
+  .touch p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 27px 0 32px 0;
+  }
+  .touch .form {
+    padding-right: 18px;
+  }
+  .touch .form .form-colum {
+    padding-right: 20px;
+  }
+  .touch .aside-input {
+    height: 44px;
+    padding: 5px 14px;
+  }
+  .touch .message-text {
+    height: 140px;
+    padding: 18px 14px;
+  }
+  .touch .aside-input,
+  .touch .message-text {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+  }
+  .touch .addres span {
+    padding-left: 38px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .touch .addres span i {
+    font-size: 20px;
+    width: 30px;
+    top: 5px;
+    left: -3px;
+  }
 }

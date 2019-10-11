@@ -12,7 +12,7 @@
 
     i {
         font-size: 32px;
-        padding: 0 0 28px 22px;
+        padding: 0 0 28px 21px;
     }
 }
 
@@ -21,10 +21,9 @@
     flex-direction: row;
     justify-content: flex-end;
     font-size: 17px;
-    margin-bottom: 6px;
 
     nav {
-        margin: 0 0 0 12px;
+        margin: 0 0 6px 12px;
 
         &:nth-child(2) {
             border-right: 1px solid;

@@ -5,3 +5,23 @@
 @import "info";
 @import "gallery";
 @import "touch";
+@import "var";
+@import "media";
+
+// desctop
+@import 'desctop/sidebar';
+@import 'desctop/info';
+@import 'desctop/gallery';
+@import 'desctop/touch';
+
+// tablet
+@import 'tablet/sidebar';
+
+// portrait
+@import 'portrait/sidebar';
+
+// mobile
+@import 'mobile/sidebar';
+
+// mobile-xs
+@import 'mobile-xs/sidebar';

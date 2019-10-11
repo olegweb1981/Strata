@@ -46,18 +46,19 @@
             &:after {
                 content: 'View';
                 position: absolute;
-                top: 45%;
-                left: 40%;
-                padding: 5px 30px;
+                top: 42%;
+                left: 39%;
+                padding: 5px 0;
                 border: 3px solid rgba(255, 255, 255, 0.5);
-                border-radius: 8px;
+                border-radius: 5px;
                 display: inline-block;
                 opacity: 0;
                 text-align: center;
-                text-decoration: none;
                 white-space: nowrap;
                 color: white;
-                font-size: 16px;
+                font-size: 17px;
+                width: 90px;
+                font-weight: 400;
 
                 img {
                     transition:width 0.5s ease;
