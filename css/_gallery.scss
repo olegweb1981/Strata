@@ -58,6 +58,14 @@
                 white-space: nowrap;
                 color: white;
                 font-size: 16px;
+
+                img {
+                    transition:width 0.5s ease;
+
+                    #statya:hover img { 
+                        width:800px; 
+                    }
+                }
             }
 
             &:hover {
@@ -90,3 +98,4 @@
         }
     }
 }
+    
