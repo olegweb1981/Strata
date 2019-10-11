@@ -1,13 +1,11 @@
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -41,46 +39,27 @@ h1, h2, h3 {
 .sidebar {
   width: 666px;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-image: url(/img/overlay.png), url(/img/bg.jpg);
   background-size: 150%;
   height: 100%;
   padding: 170px 85px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background-attachment: scroll, scroll;
 }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-left: 666px;
   padding: 171px 170px 129px 85px;
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   text-align: right;
 }
 
@@ -103,13 +82,8 @@ h1, h2, h3 {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: right;
   color: rgba(255, 255, 255, 0.4);
 }
@@ -124,16 +98,9 @@ h1, h2, h3 {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   font-size: 17px;
   margin-bottom: 6px;
 }
@@ -171,13 +138,8 @@ h1, h2, h3 {
 }
 
 .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .info h1 {
@@ -193,13 +155,8 @@ h1, h2, h3 {
 }
 
 .gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 86px;
   padding-top: 86px;
   border-top: 2px solid #eeeeef;
@@ -211,27 +168,16 @@ h1, h2, h3 {
 }
 
 .gallery .inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 0 40px -54px;
 }
 
 .gallery .gallery-item {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding-left: 54px;
 }
 
@@ -241,6 +187,7 @@ h1, h2, h3 {
   cursor: pointer;
   position: relative;
   border: 0;
+  text-align: center;
 }
 
 .gallery .gallery-item .images:before {
@@ -254,8 +201,29 @@ h1, h2, h3 {
   position: absolute;
 }
 
+.gallery .gallery-item .images:after {
+  content: 'View';
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  padding: 5px 30px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  display: inline-block;
+  opacity: 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+  font-size: 16px;
+}
+
 .gallery .gallery-item .images:hover:before {
   background-color: #010101;
+}
+
+.gallery .gallery-item .images:hover:after {
+  opacity: 1;
 }
 
 .gallery .gallery-item .images img {
@@ -278,13 +246,8 @@ h1, h2, h3 {
 }
 
 .touch {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 86px;
   padding-top: 86px;
   border-top: 2px solid #eeeeef;
@@ -302,13 +265,8 @@ h1, h2, h3 {
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-bottom: 8px;
 }
 
@@ -319,26 +277,14 @@ h1, h2, h3 {
 }
 
 .aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .form-colum {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100%;
   padding-right: 33px;
 }
@@ -378,13 +324,8 @@ h1, h2, h3 {
 }
 
 .addres {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0 0 0 0;
   width: 30%;
   font-size: 21px;

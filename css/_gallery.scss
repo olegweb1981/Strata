@@ -30,6 +30,7 @@
             cursor: pointer;
             position: relative;
             border: 0;
+            text-align: center;
 
             &:before {
                 content: '';
@@ -42,9 +43,29 @@
                 position: absolute;
             }
 
+            &:after {
+                content: 'View';
+                position: absolute;
+                top: 45%;
+                left: 40%;
+                padding: 5px 30px;
+                border: 3px solid rgba(255, 255, 255, 0.5);
+                border-radius: 8px;
+                display: inline-block;
+                opacity: 0;
+                text-align: center;
+                text-decoration: none;
+                white-space: nowrap;
+                color: white;
+                font-size: 16px;
+            }
+
             &:hover {
                 &:before {
                     background-color: rgba(1, 1, 1, 1);
+                }
+                &:after {
+                    opacity: 1;
                 }
             }
 
