@@ -16,12 +16,27 @@
 
 // tablet
 @import 'tablet/sidebar';
+@import 'tablet/info';
+@import 'tablet/gallery';
+@import 'tablet/touch';
 
 // portrait
 @import 'portrait/sidebar';
+@import 'portrait/info';
+@import 'portrait/gallery';
+@import 'portrait/touch';
+@import 'portrait/footer';
 
 // mobile
 @import 'mobile/sidebar';
+@import 'mobile/info';
+@import 'mobile/gallery';
+@import 'mobile/touch';
+@import 'mobile/footer';
 
 // mobile-xs
 @import 'mobile-xs/sidebar';
+@import 'mobile-xs/button';
+@import 'mobile-xs/gallery';
+@import 'mobile-xs/touch';
+@import 'mobile-xs/footer';

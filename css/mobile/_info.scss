@@ -1,0 +1,22 @@
+@media screen and (max-width: $sm-width) {
+
+    .main {
+        padding: 35px 24px 12px 24px;
+    }
+
+    .info {
+        
+        h1 {
+            font-size: 22px;
+            line-height: 32px;
+
+            br {
+                display: none;
+            }
+        }
+
+        p {
+            margin: 23px 0 32px 0;
+        }
+    }
+}

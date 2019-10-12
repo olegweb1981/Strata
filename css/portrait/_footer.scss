@@ -1,0 +1,41 @@
+@media screen and (max-width: $md-width) {
+
+    .footer-img {
+        width: 100%;
+        background-image: url(/img/overlay.png), url(/img/bg.jpg);
+        background-size: auto, cover;
+        background-position: top left, bottom center;
+        padding: 63px 48px 102px 48px;
+        position: relative;
+        display: block;
+        text-align: center;
+        top: auto;
+        left: auto;
+    }
+
+    .footer-md {
+
+        text-align: center;
+
+        ul {
+            margin: 0;
+            li {
+                margin: 0 0 6px 8px;
+                font-size: 13px;
+                padding-left: 8px;
+            }
+        }
+
+        .social i {
+            font-size: 30px;
+            padding: 0 7px 17px 8px;
+        }
+    }
+}
+
+@media screen and (min-width: 981px) {
+
+    .footer-md {
+        display: none;
+    }
+}

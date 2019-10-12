@@ -1,0 +1,63 @@
+@media screen and (max-width: $sm-width) {
+
+    .touch {
+        margin-top: 36px;
+        padding-top: 36px;
+
+        .btn {
+            display: none;
+        }
+
+        h2 {
+            font-size: 19px;
+            margin: 0;
+        }
+
+        p {
+            margin: 19px 0 32px 0;
+        }
+
+        .contacts {
+            flex-direction: column;
+            margin-bottom: 0;
+            .form {
+                padding-right: 0;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            
+            .aside-input {
+                margin: 0 0 17px 0;
+            }
+        }
+
+        .addres {
+            padding: 0;
+            width: 100%;
+            margin-top: 32px;
+
+            span {
+                padding-left: 32px;
+
+                i {
+                    font-size: 16px;
+                    top: 6px;
+                    left: -6px;
+                }
+            }
+        }
+
+        .btn-sm {
+            padding: 12px 0;
+            font-size: 16px;
+            width: 160px;
+        }
+    }
+}
+
+@media screen and (min-width: 737px) {
+
+    .btn-sm {
+        display: none;
+    }
+}

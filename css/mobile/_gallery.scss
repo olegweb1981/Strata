@@ -1,0 +1,29 @@
+@media screen and (max-width: $sm-width) {
+
+    .gallery {
+        margin-top: 36px;
+        padding-top: 36px;
+
+        h2 {
+            margin: 0;
+            font-size: 19px;
+        }
+
+        .inner {
+            margin: 0 0 19px -24px;
+            
+        }
+        
+        .gallery-item {
+            padding-left: 24px;
+
+            .images {
+                margin: 19px 0 22px 0;
+            }
+
+            p {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

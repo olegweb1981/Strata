@@ -1,3 +1,32 @@
 @media screen and (max-width: $md-width) {
+    
+    .sidebar {
+        width: 100%;
+        background-image: url(/img/overlay.png), url(/img/bg.jpg);
+        background-size: auto, cover;
+        background-position: top left, center center;
+        background-attachment: scroll;
+        padding: 96px 48px 78px 48px;
+        position: relative;
+        display: block;
+        text-align: center;
+        top: auto;
+        left: auto;
 
+        .header {
+            display: inherit;
+            flex-direction: inherit;
+            align-items: inherit;
+            text-align: inherit;
+
+            h1 {
+                font-size: 28px;
+                line-height: 49px;
+            }
+        }
+
+        .footer {
+            display: none;
+        }
+    }
 }

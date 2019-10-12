@@ -1,0 +1,25 @@
+@media screen and (max-width: $xs-width) {
+
+    .footer-img {
+        padding: 35px 48px 48px 48px;
+    }
+
+    .footer-md {
+
+        .social i {
+            padding: 0 7px 21px 8px;
+        }
+
+        ul {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            
+            li {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

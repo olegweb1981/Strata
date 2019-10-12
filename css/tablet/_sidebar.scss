@@ -1,3 +1,26 @@
 @media screen and (max-width: $lg-width) {
+    
+    .sidebar {
+        padding: 96px 48px 47px 48px;
+        width: 30%;
 
+        h1 {
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        ul {
+            li {
+                display: block;
+                margin: 0;
+                font-size: 13px;
+                padding-left: 0;
+                border: none;
+            }
+        }
+
+        .social i {
+            padding: 0 0 19px 15px;
+        }
+    }    
 }

@@ -14,18 +14,18 @@
             line-height: 37px;
         }
 
-        nav {
-            margin: 0 0 6px 10px;
-            font-size: 13px;
-
-            &:nth-child(2) {
-                padding: 0 9px;
+        ul {
+            margin: 0;
+            li {
+                margin: 0 0 6px 7px;
+                font-size: 13px;
+                padding-left: 8px;
             }
         }
 
         .social i {
             font-size: 24px;
-            padding: 0 0 19px 15px;
+            padding: 0 0 15px 15px;
         }
     }    
 }

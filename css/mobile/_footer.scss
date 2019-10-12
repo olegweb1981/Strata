@@ -1,0 +1,13 @@
+@media screen and (max-width: $sm-width) {
+
+    .footer-img {
+        padding: 35px 48px 42px 48px;
+    }
+}
+
+@media screen and (min-width: 981px) {
+
+    .footer-md {
+        display: none;
+    }
+}

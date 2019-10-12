@@ -1,3 +1,10 @@
 @media screen and (max-width: $xs-width) {
-    
+
+    .sidebar {
+        padding: 72px 24px 72px 24px;
+
+        br {
+            display: none;
+        }
+    }
 }
