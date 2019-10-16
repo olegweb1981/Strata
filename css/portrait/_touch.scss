@@ -1,0 +1,21 @@
+@media screen and (max-width: $md-width) {
+
+    .touch {
+    
+        .form {
+            padding-right: 11px;
+            width: 69%;
+        }
+        
+        .message-text {
+            height: 134px;
+            padding: 13px 14px;
+        }
+        
+        .aside-input {
+            margin: 0 0 21px 0;
+            font-size: 16px;
+        }
+        
+    }
+}

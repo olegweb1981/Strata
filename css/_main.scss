@@ -42,7 +42,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     background-image: url(/img/overlay.png), url(/img/bg.jpg);
-    background-size: 150%;
+    background-size: auto, 150%;
     height: 100%;
     padding: 170px 85px;
     justify-content: space-between;

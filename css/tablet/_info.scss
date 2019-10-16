@@ -1,7 +1,10 @@
-@media screen and (max-width: $xl-width) {
+@media screen and (max-width: $lg-width) {
+
     .main {
-        padding: 128px 64px 96x 64px;
-        margin-right: 13%;
+        padding: 96px 48px 96px 48px;
+        margin-right: 0;
+        margin-left: 30%;
+        max-width: 100%;
     }
 
     .info {
@@ -16,11 +19,5 @@
             line-height: 28px;
             margin: 32px 0;
         }
-    }
-
-    .btn {
-        padding: 12px 0;
-        font-size: 16px;
-        width: 160px;
     }
 }

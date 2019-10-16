@@ -1,0 +1,11 @@
+@media screen and (max-width: $xs-width) {
+    .btn {
+        width: 100%;
+    }
+
+    .touch {
+        .btn-sm {
+            width: 100%;
+        }
+    }
+}
