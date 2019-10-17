@@ -41,6 +41,7 @@
                 display: block;
                 opacity: 0.5;
                 position: absolute;
+                transition-duration: 0.3s;
             }
 
             &:after {
@@ -59,6 +60,7 @@
                 font-size: 17px;
                 width: 90px;
                 font-weight: 400;
+                transition-duration: 0.4s;
 
                 img {
                     transition:width 0.5s ease;
